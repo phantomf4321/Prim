@@ -41,7 +41,8 @@ void printMinSpanningTree(int cost[][V]) {
 }
 int main() {
     int m, n, u, v, w;
-    cin >> m >> n;
+    //cin >> m >> n;
+    
     int cost[V][V];
     for (int counter1 = 0; counter1 < m; counter1++)
     {
